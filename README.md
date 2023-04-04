@@ -11,3 +11,5 @@
 <!-- https://www.w3schools.com/graphics/svg_rect.asp making square -->
 
 <!-- https://www.w3schools.com/graphics/tryit.asp?filename=trysvg_polygon (for making triangle) -->
+
+<!-- AskBCS helped me figure out how to export and import multiple functions from one file -->
