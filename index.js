@@ -2,7 +2,7 @@
 
 const inquirer = require("inquirer");
 const fs = require("fs");
-const generateLogo = require("./lib/shapes.js");
+const { generateLogo }  = require("./lib/shapes.js");
 
 // array of questions for user input
 
