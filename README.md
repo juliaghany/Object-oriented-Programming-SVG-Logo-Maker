@@ -50,9 +50,9 @@ Now that you've installed the necessary programs and Node.js packages, follow th
 
 1. In the command line, make sure that you are in the correct directory and use the command "node index" to initialize the application. 
    
-2. The application will begin asking for your input; this is the information that the application will use to generate the SVG file.
+2. The application will begin asking for your input; this is the information that the application will use to generate the SVG file. If you would like to use a color hexadecimal number instead of a keyword, you can visit [HTML Color Codes](https://htmlcolorcodes.com/) to find the exact color you want to include. 
    
-3. Once you've gone through every prompt, go back to Visual Studio Code and find the "logo.svg" file. To preview your logo within VS (Visual Studio) Code, you will have to install an extension for SVG. I will walk-through how to do this in my demonstration video. If you'd like to view your logo within the browser, you can right-click on the logo.svg file and click "Copy Path". Then, you can paste what you've copied into the search bar of your browser and view your logo that way. 
+3. Once you've gone through every prompt, go back to Visual Studio Code and find the "logo.svg" file. To preview your logo within VS (Visual Studio) Code, you will have to install an extension for SVG. I will walk-through how to do this in the demonstration video. If you'd like to view your logo within the browser, you can right-click on the logo.svg file and click "Copy Path". Then, you can paste what you've copied into the search bar of your browser and view your logo that way. 
    
 4. Once you're ready to save your SVG file, go to the top left corner in Visual Studio Code and select the option "Save as" and save the file to the folder of your choice.
 
