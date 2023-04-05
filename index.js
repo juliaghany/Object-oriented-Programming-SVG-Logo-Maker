@@ -2,7 +2,7 @@
 
 const inquirer = require("inquirer");
 const fs = require("fs");
-const { generateLogo }  = require("./lib/shapes.js");
+const { Circle,Triangle,Square }  = require("./lib/shapes.js");
 
 // array of questions for user input
 
@@ -30,18 +30,29 @@ const questions = [
         message: "Please choose a color for the shape in your logo by entering the color's keyword or a hexadecimal number.",
     },
 ];
+
+// 
  
 function writeToFile(fileName, data) {
-    fileName = `logo.svg`
-    fs.writeFile(fileName, generateLogo(data), (err) =>
+    fs.writeFile(fileName, data, (err) =>
     err ? console.log(err) : console.log('Generated logo.svg'))
 }
 
+// 
+
 function init() {
     inquirer.prompt(questions)
-        .then((answers => {
-        writeToFile("logo.svg", answers)
-    }))
+        .then(({shape,text,textColor,shapeColor}) => {
+            if (shape === 'Circle') {
+                svgShape = new Circle(shapeColor,text,textColor);
+            } else if (shape === 'Triangle') {
+                svgShape = new Triangle(shapeColor,text,textColor);
+            } else {
+                svgShape = new Square(shapeColor,text,textColor);
+            }
+
+        writeToFile("logo.svg", svgShape.renderSVG())
+    })
 }
 
 init();
