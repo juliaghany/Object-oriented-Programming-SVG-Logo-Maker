@@ -13,6 +13,8 @@ I built this project to gain more experience with object-oriented programming an
 
 This application will ask the user to include information such as: what three characters they'd like to include in their logo, what color they'd like the text of their logo to be, what shape (circle, triangle, or square) they'd like their logo to have, and what color they'd like their shape to be. 
 
+I want to mention here that I made the mistake of not reading all of the requirements for this challenge before coding. You will notice that the code that I wrote in the earlier commits did not follow the guidelines for this challenge, so I had to revise my code to meet those requirements. 
+
 ## Table Of Contents 
 - [Installation](#installation)<br>
 - [Usage](#usage)<br>
