@@ -10,7 +10,15 @@ const questions = [
     {
         type: "input",
         name: "text",
-        message: "Let's create a logo! Please choose up to 3 characters to include in your logo."
+        message: "Let's create a logo! Please choose up to 3 characters to include in your logo.",
+        // validate function to make sure user is entering at least 1 and no more than 3 characters
+        validate: function (value) {
+            if (value.length > 0 && value.length < 4)
+                return true
+            else {
+                return `Please enter no less than 1 character and no more than 3 characters. Press Ctrl+C and enter "node index" to restart the application.`
+            }
+        }
     },
     {
         type: "input",
@@ -44,11 +52,11 @@ function init() {
     inquirer.prompt(questions)
         .then(({shape,text,textColor,shapeColor}) => {
             if (shape === 'Circle') {
-                svgShape = new Circle(shapeColor,text,textColor);
+                svgShape = new Circle(shapeColor, text, textColor);
             } else if (shape === 'Triangle') {
-                svgShape = new Triangle(shapeColor,text,textColor);
+                svgShape = new Triangle(shapeColor, text, textColor);
             } else {
-                svgShape = new Square(shapeColor,text,textColor);
+                svgShape = new Square(shapeColor, text, textColor);
             }
 
         writeToFile("logo.svg", svgShape.renderSVG())
