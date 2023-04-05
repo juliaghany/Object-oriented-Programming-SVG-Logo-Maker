@@ -1,5 +1,5 @@
 
-# Object-oriented Programming Challenge: SVG Logo Maker
+# Object-oriented Programming: SVG Logo Maker
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
