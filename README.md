@@ -70,11 +70,11 @@ This application is covered under the [MIT License](https://opensource.org/licen
 
 - I referenced Module 10 Activity 11 to set up the tests in the shapes.test.js file. I also referred to the guildelines for this module's challenge for writing lines 5-7, 13-15, and 21-23 in the shapes.test.js file. 
 
-- I referenced this MDN documentation to help me create my SVG file: https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Getting_Started
+- I referenced this webpage to create my SVG file and shape SVG elements: https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Getting_Started
 
 - I used the Try It Yourself to figure out how create the triangle SVG element: https://www.w3schools.com/graphics/tryit.asp?filename=trysvg_polygon 
 
-- <!-- https://www.npmjs.com/package/inquirer/v/8.2.4#questions (validate) -->
+- I referenced this webpage to create a validate function to make sure the user is entering no less than one character and no more than three characters for the text for their logo:  https://www.npmjs.com/package/inquirer/v/8.2.4#questions 
 
 
 ## Questions
