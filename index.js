@@ -31,14 +31,14 @@ const questions = [
     },
 ];
 
-// 
+// function that will write svg file 
  
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) =>
     err ? console.log(err) : console.log('Generated logo.svg'))
 }
 
-// 
+// function that initializes the application, use conditional statement to generate specific shape svg element based on user input
 
 function init() {
     inquirer.prompt(questions)
@@ -53,7 +53,9 @@ function init() {
 
         writeToFile("logo.svg", svgShape.renderSVG())
     })
-}
+};
+
+// function call to initalize application
 
 init();
 
