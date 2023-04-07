@@ -29,7 +29,7 @@ In order to use this application, you will need to install the following program
 - [Visual Studio Code](https://code.visualstudio.com/) 
 - [Node.js](https://nodejs.org/en) 
 - [Git Bash](https://gitforwindows.org/)
-- [Jest](https://www.npmjs.com/package/jest)
+
 
 
 Once you've completed installing the above programs onto your computer, initialize the application following these steps:
