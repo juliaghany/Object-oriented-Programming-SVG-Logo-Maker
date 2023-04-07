@@ -38,7 +38,7 @@ Once you've completed installing the above programs onto your computer, initiali
    
 2. Once you've cloned this repository and are in the correct directory, in the command line use the command "code ."; this will open Visual Studio Code, which is where you will view your SVG file. 
    
-3. Next, you'll want to open GitBash. In the command line, use the command "npm init -y" to install Node Package Manager.
+3. Next, you'll want to open GitBash. In the command line, use the command "npm install" to install Node Package Manager.
    
 4. In the command line, use the command "npm i inquirer@8.2.4" to install the inquirer package.
 
